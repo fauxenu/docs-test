@@ -1,0 +1,29 @@
+{
+  "name": "docs-test",
+  "version": "1.0.0",
+  "description": "Testing Next.js static site docs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fauxenu/docs-test.git"
+  },
+  "author": "bhilmer@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fauxenu/docs-test/issues"
+  },
+  "homepage": "https://github.com/fauxenu/docs-test#readme",
+  "dependencies": {
+    "modern-normalize": "^1.0.0",
+    "next": "^10.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.32.6"
+  }
+}
